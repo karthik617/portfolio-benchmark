@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    border-radius: 0.25rem;
+    border: 1px solid var(--light-grey);
+    flex: 1 1 0;
+    background-color: #28282C;
+    
+  }
+  .container-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-inline: 0.5rem;
+  }
+  .container-chart {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 0.5rem;
+  }
+  .table-title {
+    margin: 0.25rem;
+    font-weight: 400;
+  }
+  .tb {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0.25rem;
+    border-collapse: collapse;
+    display: block;
+  }
+  
+  .tb-header {
+    background-color: #000;
+    text-align: left;
+  }
+  
+  .tb-cell {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25rem;
+    font-size: small;
+    border-right: 0.025rem solid var(--light-grey);
+    border-bottom: 0.025rem solid var(--light-grey);
+    vertical-align: middle;
+  }
+  
+  .tb-body .tb-row:nth-child(odd) {
+    background-color: #ffffff0d;
+  }
+  .tb-body .tb-row .tb-cell {
+    border: none;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #28282C;
+    color: #fff;
+    border: 1px solid #374151;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  
+  .btn:hover {
+    background: #111827;
+  }
+  
+  .btn:active {
+    background: #000;
+  }
+  
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .btn-primary {
+    background: #2563eb;
+    border-color: #1d4ed8;
+  }
+  
+  .btn-primary:hover {
+    background: #3b82f6;
+  }
+  .header-left {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+  }
+  
+}  
