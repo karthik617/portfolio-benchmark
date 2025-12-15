@@ -7,7 +7,7 @@
     border-radius: 0.25rem;
     border: 1px solid var(--light-grey);
     flex: 1 1 0;
-    background-color: #28282C;
+    background-color: #131315;
     
   }
   .container-table {
@@ -63,7 +63,7 @@
     justify-content: center;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    background: #28282C;
+    background: #131315;
     color: #fff;
     border: 1px solid #374151;
     border-radius: 0.25rem;
@@ -97,6 +97,17 @@
     display: flex;
     gap: 1rem;
     flex: 1;
+  }
+
+  .badge {
+    border-radius: 1rem;
+    border: 0.09rem solid #374151;
+    color: #4885ffe2;
+    display: inline-block;
+    font-size: small;
+  }
+  .badge-text {
+    padding: 0.25rem 0.5rem;
   }
   
 }  

@@ -102,7 +102,7 @@ import {
     };
   
     return (
-      <div style={{ height: 250, background: "#28282C", padding: 16, width: "97%", display: "flex", margin: "auto" }}>
+      <div style={{ height: 250, background: "#131315", padding: 16, width: "97%", display: "flex", margin: "auto" }}>
         <Line data={chartData} options={options} />
       </div>
     );

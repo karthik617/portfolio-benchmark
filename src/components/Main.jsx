@@ -19,7 +19,7 @@ export default function Main() {
       count: 316,
     },
     {
-      metric: "CAGR",
+      metric: "CAGR %",
       value: 4.92,
       count: 316,
     },
